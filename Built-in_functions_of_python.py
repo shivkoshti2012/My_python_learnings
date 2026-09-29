@@ -1,0 +1,18 @@
+Msg = "hello World"
+msg = "!"
+print(len(Msg))
+print(Msg.lower())
+print(Msg.upper())
+print(Msg.strip())
+print(Msg.replace("o", "w"))
+print(Msg.split())
+print(msg.join(["hello", "World"]))
+print(Msg.startswith("hello"))
+print(Msg.endswith("ld"))
+print(Msg.find("hello"))
+print(Msg.count("o"))
+print(Msg.isalpha())
+print(Msg.isalnum())
+print(Msg.isspace())
+print(Msg.capitalize())
+print(Msg.title())
